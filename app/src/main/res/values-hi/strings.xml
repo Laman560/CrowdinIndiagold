@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crowdin</string>
+
+    <string name="string_text1">हेलो मैं टेक्स्ट नंबर वन हूं</string>
+    <string name="string_text2">हेलो मैं टेक्स्ट नंबर %1s हूं</string>
+    <string name="string_text3">हेलो मैं टेक्स्ट नंबर %1s , %2s और %3s हूं</string>
+
+    <string name="string_two">दो</string>
+    <string name="string_three">तीन</string>
+    <string name="string_four">चार</string>
+    <string name="string_five">पांच</string>
+
+    <!--<string name="string_translate">अंग्रेजी मे अनुवाद</string>-->
+    <string name="string_translate">Translate to hindi</string>
+</resources>

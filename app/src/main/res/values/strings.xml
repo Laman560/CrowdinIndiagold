@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crowdin</string>
+
+    <string name="string_text1">Hello I am Text number one</string>
+    <string name="string_text2">Hello I am Text number %1s</string>
+    <string name="string_text3">Hello I am Text number %1s , %2s and %3s</string>
+
+    <string name="string_two">two</string>
+    <string name="string_three">three</string>
+    <string name="string_four">four</string>
+    <string name="string_five">five</string>
+
+    <string name="string_translate">Translate to hindi</string>
+
+</resources>
