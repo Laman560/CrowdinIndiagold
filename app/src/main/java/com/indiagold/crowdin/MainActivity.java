@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
         state =true;
 
         textView1 =findViewById(R.id.tv_1);
