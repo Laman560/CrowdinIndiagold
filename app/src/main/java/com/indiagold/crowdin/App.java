@@ -14,7 +14,7 @@ public class App extends AppCompatActivity {
 
     String clientId = "kQ3mHY0GLJXZ6UI3QoSD";
     String clientSecret = "Dykxw0IosHzPd8XkWZIYz6uiaskuKR6DFveh0Y68";
-    String organizationName = "null";
+    String organizationName = null;
     String distributionhash = "f2b2074f37a112482f4ce98je38";
     
     @Override
@@ -27,7 +27,7 @@ public class App extends AppCompatActivity {
                         .withRealTimeUpdates()
                         .withScreenshotEnabled()
                         .withSourceLanguage("en")
-                        .withAuthConfig(new AuthConfig(clientId, clientSecret, organizationName))
+                        .withAuthConfig(new AuthConfig(clientId, clientSecret))
                         .withNetworkType(NetworkType.ALL)                                           
                         .withUpdateInterval(900)                                 
                         .build());
