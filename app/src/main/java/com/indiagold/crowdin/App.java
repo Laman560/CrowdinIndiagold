@@ -12,10 +12,10 @@ import com.crowdin.platform.data.remote.NetworkType;
 
 public class App extends AppCompatActivity {
 
-    String clientId = "4F3pxkZEWTpofXfHxWbY";
-    String clientSecret = "i83xaCIVOoTKKMobanVUjxEpsHiWOYON1tsKUFbp";
+    String clientId = "kQ3mHY0GLJXZ6UI3QoSD";
+    String clientSecret = "Dykxw0IosHzPd8XkWZIYz6uiaskuKR6DFveh0Y68";
     String organizationName = "CrowdinIndiagold";
-    
+    String distributionhash = "f2b2074f37a112482f4ce98je38";
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class App extends AppCompatActivity {
 
         Crowdin.init(this,
                 new CrowdinConfig.Builder()
-                        .withDistributionHash("1a41018ed9540982e9db878je38")
+                        .withDistributionHash(distributionhash)
                         .withRealTimeUpdates()
                         .withScreenshotEnabled()
                         .withSourceLanguage("English")
